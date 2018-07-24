@@ -1,6 +1,6 @@
 ﻿namespace CaveBirdLabs.Genyman.IOSDeviceIdentifiers.Implementation
 {
-	public class NewTemplate : Configuration
+	internal class NewTemplate : Configuration
 	{
 		public NewTemplate()
 		{

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,14 +6,15 @@
     <PackAsTool>true</PackAsTool>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssemblyName>CaveBirdLabs.Genyman.IOSDeviceIdentifiers</AssemblyName>
-    <Version>1.0.3</Version>
+    <Version>1.0.5</Version>
     <Description>Generates an extension method to convert iOS Hardware Identifiers to Pretty Names</Description>
     <PackageTags>Genyman</PackageTags>
     <IncludeContentInPack>false</IncludeContentInPack>
+    <PackageProjectUrl>https://github.com/CaveBirdLabs/Genyman.IOSDeviceIdentifiers</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/genyman/genyman/master/graphics/genyman64.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Genyman.Core" Version="0.0.15" />
+    <PackageReference Include="Genyman.Core" Version="0.0.29" />
     <PackageReference Include="ServiceStack.Text" Version="5.1.0" />
   </ItemGroup>
   <ItemGroup>
